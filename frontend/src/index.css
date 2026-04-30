@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Roboto+Slab:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size:16px;
+  line-height: 1.5;
+  color: #d5792d;
+  
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    order: 1px dashed red;
+}
+main {
+  overflow-y: auto;
+  flex: 1;
+}
+
+header {
+ text-align: center;
+}
+
+h1 {
+  font-family: 'Caprasimo', cursive;
+  font-size: 3rem;
+  margin: 0 auto 3rem auto;
+  color: #3f3b00;
+}
+
+footer {
+    text-align: center;
+}

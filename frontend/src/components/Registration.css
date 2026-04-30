@@ -1,0 +1,82 @@
+#registration-container { 
+    padding: 1rem;
+    border-radius: 4px;
+    border: 2px solid #333;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+.row {
+    display: flex;
+    gap: 1rem;
+   
+}
+.field {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.title {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #111827;
+    text-align: center;
+}
+
+.controls label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #6b7280;
+}
+
+.controls input,
+.controls select {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  line-height: 1.5;
+  background-color: #d1d5db;
+  color: #374151;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.registration-button {
+  padding: 1rem 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 1px solid;
+  border-radius: 0;
+  border-color: #73B680;
+  background: #ffffff;
+  color: #73B680;
+  cursor: pointer;
+}
+
+.registration-button:hover {
+  text-decoration: none;
+  background: #73B680;
+  color: #ffffff;
+}
+
+.text-button {
+  color: #f0b322;
+  border: none;
+  background: none;
+  cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+#main-container {
+    height: 100%;
+    margin: 0 auto;
+    max-width: 800px;
+}
+.input-group {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+}
+
+
+
