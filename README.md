@@ -1,1 +1,2 @@
 # property_management
+This application helps the property owners to efficiently store and manage tenant informartion. It provides automated email notifications when lease agreements are near to expiration and ensuring timely renewal. Additionally it maintains a history of past tenants making it easy to track and reference privious occupancy record.
