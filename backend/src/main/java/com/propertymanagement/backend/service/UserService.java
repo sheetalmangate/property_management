@@ -1,5 +1,6 @@
 package com.propertymanagement.backend.service;
 
+import com.propertymanagement.backend.exception.EmailAlreadyExistsException;
 import org.springframework.stereotype.Service;
 import com.propertymanagement.backend.repository.UserRepository;
 import com.propertymanagement.backend.model.User;
@@ -15,7 +16,7 @@ public class UserService {
     public User registerUser(User user) {
 
         if(userRepository.existsByEmail(user.getEmail())) {
-            throw new RuntimeException("Unable to complete registration with the provided information.");
+            throw new EmailAlreadyExistsException("Email already registered.");
         }
 
         if(user.getPassword() == null || user.getPassword().isEmpty()) {
